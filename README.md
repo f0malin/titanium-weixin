@@ -15,7 +15,7 @@ Add following code when you app startup:
 ```javascript
 var weixin = require('com.biddecor.weixin');
 // appId, partnerId, partnerKey
-weixin.initSetup("wx47a221a1768b1770", "1246048102", "PZNLcRRv2NNcy4Ifnjg7WLQT9sgnlvTB");
+weixin.initSetup("wx47a221a7890b1770", "1278908102", "PZNLcRRv2NNcy4Ifnj7890QT9sgnlvTB");
 ```
 
 When you want to start a Weixin payment, call:
@@ -25,7 +25,7 @@ Ti.UI.currentWindow.activity.onStart = function() {    // weak up hook
   // do something according to the result
   Ti.UI.currentWindow.activity.onStart = null;   // remove hook
 };
-weixin.pay("wx20150610134733ed6bd417f90412261612");   // call pay with prepayId
+weixin.pay("wx20150610134733ed6b7890f90412261612");   // call pay with prepayId
 ```
 
 Enjoy :) !
